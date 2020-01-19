@@ -1,0 +1,16 @@
+back
+cancel
+checkbox
+dropDown
+forward
+hamburger
+leftarrow
+play
+plus
+search
+settings
+share
+sliders
+text
+toogle
+userImage
