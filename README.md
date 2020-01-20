@@ -8,6 +8,8 @@ The [QuickDraw](https://github.com/googlecreativelab/quickdraw-dataset) contains
 
 ![preview](SampleElements.png)
 
+To collect sketches for the 16 remaining categories from Figure~\ref{fig:alluielement} we built a website similar to Sketchy~\cite{sketchy2016}. To encourage users to draw from memory, our website shows an UI element repeatedly for one second before blacking it out for 5~seconds. We recruited participants via Amazon Mechanical Turk (with IRB approval) and asked each participant to produce 15~sketches of graphical primitives. We thereby collected 11,500~drawings. After manual review, each of our 16~categories contained some 600~sketches. 
+
 The Quick Draw Dataset is a collection of 50 million drawings across [345 categories](categories.txt), contributed by players of the game [Quick, Draw!](https://quickdraw.withgoogle.com). The drawings were captured as timestamped vectors, tagged with metadata including what the player was asked to draw and in which country the player was located. You can browse the recognized drawings on [quickdraw.withgoogle.com/data](https://quickdraw.withgoogle.com/data).
 
 We're sharing them here for developers, researchers, and artists to explore, study, and learn from. If you create something with this dataset, please let us know [by e-mail](mailto:quickdraw-support@google.com) or at [A.I. Experiments](https://aiexperiments.withgoogle.com/submit).
