@@ -38,11 +38,14 @@ Here x0,x1 indicates the coordinates of the digital interface.
 - [trainModel.py](trainModel.py) - A script to train an RNN model that uses the tfrecord file.
 
 
-## Dependencies
+## Dependencies-
+1. Tensorflow
+2. NumPy
+3. Scikit-image
+4. Shutil
 
 
-## License
-This data made available by Google, Inc. under the [Creative Commons Attribution 4.0 International license.](https://creativecommons.org/licenses/by/4.0/)
+
 
 
 
