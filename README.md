@@ -1,7 +1,7 @@
 ## Doodle to UI Dataset
 Doodle to UI Dataset contains 11 thousand drawings from 16 categories. 
 
-[RICO](http://interactionmining.org/rico) by Nick Jonas dataset is a collection of 66k unique UI screens from 9.3k apps from 27 Google Play app categories. According to RICO the most common Android UI element types are- 
+[RICO](http://interactionmining.org/rico) dataset is a collection of 66k unique UI screens from 9.3k apps from 27 Google Play app categories. According to RICO the most common Android UI element types are- 
 Container, followed by (in order) image, # icon (a small interactive image), text, text button, web view, input, list item, switch (a toggle element), map view,slider, and checkbox. Among the icons most common elements are back, followed by menu (the hamburger), cancel (close), search (loupe), plus (add), avatar (user image), home (house), share, settings (gear), star (rating), edit, more, refresh, and forward.
 
 The [QuickDraw](https://github.com/googlecreativelab/quickdraw-dataset) contains 345~sketch categories (from ``aircraft carrier'' to ``zigzag''), with some 100k samples each, drawn by anonymous users. QuickDraw contains some categories that seemed like a good fit for UI Element but fails to represent most common UI Elements. Doodle to UI Dataset contains 16 categories that can be used to represent these common UI element. Preview of these 16 categories is shown here- 
