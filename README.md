@@ -14,6 +14,7 @@ With the advancement of the deep neural network, it is now possible to train a n
 
 ## Data Format
 Strokes of these 16 categories reside in different folders. We used the same formatting used by Quickdraw.  Each drawing comprises several strokes. A single stroke symbolizes drawing made by a user without detaching a drawing pen from the digital interface.   And each stroke is a collection of straight lines, given by their x/y endpoints coordinates. 
+```javascript
 [ 
   [  // First stroke 
     [x0, x1, x2, x3, ...],
@@ -24,7 +25,7 @@ Strokes of these 16 categories reside in different folders. We used the same for
     [y0, y1, y2, y3, ...],
   ],
 ]
-
+```
 Here x0,x1 indicates the coordinates of the digital interface. 
 
 
