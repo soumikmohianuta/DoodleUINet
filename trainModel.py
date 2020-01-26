@@ -210,7 +210,7 @@ def get_input_fn(mode, tfrecord_pattern, batch_size):
 #      dataset = dataset.shuffle(buffer_size=1000000)
 #        10000
     dataset = dataset.padded_batch(
-        batch_size, padded_shapes=dataset.output_shapes,drop_remainder=True)
+        batch_size, padded_shapes=dataset.output_shapes)
     features, labels = dataset.make_one_shot_iterator().get_next()
     return features, labels
 
