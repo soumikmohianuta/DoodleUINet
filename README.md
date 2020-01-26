@@ -40,10 +40,10 @@ Here x0,x1 indicates the coordinates of the digital interface.
 
 
 ## Dependencies-
-1. Tensorflow
-2. NumPy
-3. Scikit-image
-4. Shutil
+1. Tensorflow - '1.9.0'
+2. NumPy - '1.16.5' 
+3. Scikit-image -  '0.16.1'
+
 
 
 
