@@ -52,7 +52,7 @@ Here x0,x1 indicates the coordinates of the digital interface.
 - [CorrectImages](CorrectImages) - Contains 10 thousand images of drawings (we labeled correct) from 16 categories separated by folder of their corresponding categories.  
 - [RawDrawings](RawDrawings)  - Contains 11 thousand drawings (with incorrect drawings) from 16 categories separated by folder of their corresponding categories.  
 - [RawImages](RawImages)  - Contains 11 thousand images of drawings (with incorrect drawings) from 16 categories separated by folder of their corresponding categories.   
-- [WithoutOuterCircle](WithoutOuterCircle) Extracted sketches for the plus, avatar, cancel, checkbox class without the outer circle.
+- [WithoutOuterCircle](WithoutOuterCircle) - Extracted sketches for the plus, avatar, cancel, checkbox class without the outer circle.) - Extracted sketches for the plus, avatar, cancel, checkbox class without the outer circle.
 - [PrepareData.py](PrepareData.py) - This python script helps to separate the data into the test and train category. 
 - [StrokeToImage.py](StrokeToImage.py) - This script file converts the strokes into an image.
 - [qlabel.txt](qlabel.txt) - Text file contains categories that are going to be included for training. 
